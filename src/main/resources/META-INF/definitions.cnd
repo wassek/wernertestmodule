@@ -1,6 +1,7 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
 <jnt = 'http://www.jahia.org/jahia/nt/1.0'>
 
-[jnt:wernertest] > jnt:content
+[jnt:wernertest] > jnt:content, jmix:editorialContent, jmix:structuredContent
  itemtype = content
  - test1 (string, textarea)
  - test2 (string, color)
